@@ -1,5 +1,5 @@
 import "./styles.css";
-import Converter from "./Converter";
+import CurrencyConverter from "./CurrencyConverter";
 import { useEffect, useRef, useState } from "react";
 
 export default function App() {
@@ -94,7 +94,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Currency Converter</h1>
-      <Converter
+      <CurrencyConverter
         data={data}
         money={money}
         onMoneyChangeFrom={onMoneyChangeFrom}
